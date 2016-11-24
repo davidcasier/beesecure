@@ -1,0 +1,9 @@
+
+Device SipDevice
+
+- une source lastCall qui contient l'uri de la derniere personne appelée (reset si un appel est reussi)
+- une fonction CallSip qui communique à la tablette une URI ainsi que la dernière activitée realisée. Cette fonction doit pouvoir indiquer en valeur de retour si l'appel a échoué
+
+Device Pebble
+
+- une source signalant un appui sur le bouton
